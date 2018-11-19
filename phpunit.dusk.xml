@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="bootstrap/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <!--
+        <testsuite name="Browser Test Suite">
+            <directory suffix="Test.php">./tests/Browser</directory>
+        </testsuite>
+        -->
+        <testsuite name="Browser Test Suite">
+            <!-- test role permissions to access routes in application -->
+            <file>./tests/Browser/permission_access/desktop/RootMasterDesktopPermissionAccessTest.php</file>
+            <file>./tests/Browser/permission_access/desktop/AdministratorLocationDesktopPermissionAccessTest.php</file>
+            <file>./tests/Browser/permission_access/desktop/AdministratorOperaterDesktopPermissionAccessTest.php</file>
+            <file>./tests/Browser/permission_access/desktop/AdministratorSystemDesktopPermissionAccessTest.php</file>
+
+            <!-- test what role of user sees on main application menu -->
+            <file>./tests/Browser/backoffice_menu/desktop/RootMasterDesktopBackofficeMenuTest.php</file>
+            <file>./tests/Browser/backoffice_menu/desktop/AdministratorSystemDesktopBackofficeMenuTest.php</file>
+            <file>./tests/Browser/backoffice_menu/desktop/AdministratorOperaterDesktopBackofficeMenuTest.php</file>
+            <file>./tests/Browser/backoffice_menu/desktop/AdministratorLocationDesktopBackofficeMenuTest.php</file>
+
+            <!-- test form to save data click on save button -->
+            <file>./tests/Browser/MyPersonalDataTest.php</file>
+            <file>./tests/Browser/ChangePasswordTest.php</file>
+
+            <!-- test if deposit and withdraw to player work as expected -->
+            <file>./tests/Browser/credit_transfers/DepositPlayerTest.php</file>
+            <file>./tests/Browser/credit_transfers/Browser/WithdrawPlayerTest.php</file>
+
+
+            <!-- test if creating various entities or users with different roles work as expected -->
+            <!--
+            <file>./tests/Browser/new_user_entity/NewStructureEntityTest.php</file>
+            <file>./tests/Browser/new_user_entity/NewUserTest.php</file>
+            -->
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./app</directory>
+        </whitelist>
+    </filter>
+
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="SESSION_DRIVER" value="file"/>
+        <env name="QUEUE_DRIVER" value="sync"/>
+        <env name="TEST_SERVER_URL" value="http://localhost/backoffice-tombola/public"/>
+        <env name="TEST_APPLICATION_NAME" value="/backoffice-tombola/public/en"/>
+        <env name="TEST_BACKOFFICE_LOGIN_URL" value="http://localhost/backoffice-tombola/public/en/auth/login"/>
+        <env name="TEST_SERVER_URL_FOR_BROWSER_TESTING" value="/backoffice-tombola/public"/>
+        <env name="TEST_HOME_PAGE_URL_FOR_BROWSER_TESTING" value="/backoffice-tombola/public/en/home_page"/>
+
+        <env name="BACKOFFICE_USERNAME" value="DevMilos"/>
+        <env name="BACKOFFICE_PASSWORD" value="DevMilos"/>
+
+        <env name="ADMINISTRATOR_SYSTEM_BACKOFFICE_USERNAME" value="DevMilos"/>
+        <env name="ADMINISTRATOR_SYSTEM_BACKOFFICE_PASSWORD" value="DevMilos"/>
+
+        <env name="ROOT_MASTER_BACKOFFICE_USERNAME" value="ROOT MASTER"/>
+        <env name="ROOT_MASTER_BACKOFFICE_PASSWORD" value="ROOT MASTER"/>
+
+        <env name="ADMINISTRATOR_OPERATER_BACKOFFICE_USERNAME" value="adoprmilos"/>
+        <env name="ADMINISTRATOR_OPERATER_BACKOFFICE_PASSWORD" value="adoprmilos"/>
+
+        <env name="ADMINISTRATOR_OPERATER_PARENT_OPERATER_NAME" value="oprmilos"/>
+        <env name="ADMINISTRATOR_OPERATER_PARENT_OPERATER_ID" value="252"/>
+
+        <env name="ADMINISTRATOR_OPERATER_CHILD_PLAYER_NAME" value="plmilos1"/>
+        <env name="ADMINISTRATOR_OPERATER_CHILD_PLAYER_ID" value="261"/>
+
+        <env name="ADMINISTRATOR_LOCATION_BACKOFFICE_USERNAME" value="AdLocTest"/>
+        <env name="ADMINISTRATOR_LOCATION_BACKOFFICE_PASSWORD" value="AdLocTest"/>
+
+        <env name="ADMINISTRATOR_SYSTEM_BACKOFFICE_USERNAME" value="DevMilos"/>
+        <env name="ADMINISTRATOR_SYSTEM_BACKOFFICE_PASSWORD" value="DevMilos"/>
+
+        <env name="ADMINISTRATOR_OPERATER_CURRENCY" value="EUR"/>
+        <env name="ADMINISTRATOR_OPERATER_COUNTRY_ID" value="688"/>
+        <env name="ADMINISTRATOR_OPERATER_LANGUAGE" value="en_GB"/>
+
+        <env name="BACKOFFICE_SESSION_ID" value="2577"/>
+        <env name="LOCATION_ID" value="33" />
+
+        <env name="COUNTRY_NAME" value="Serbia" />
+        <env name="COUNTRY_ID" value="688" />
+
+        <env name="DB_HOST" value=""/>
+        <env name="DB_PORT" value="5432"/>
+        <env name="DB_DATABASE" value=""/>
+        <env name="DB_USERNAME" value=""/>
+        <env name="DB_PASSWORD" value=""/>
+    </php>
+</phpunit>

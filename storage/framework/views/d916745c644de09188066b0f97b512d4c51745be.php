@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="googlebot" content="noarchive" />
+
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><?php echo e(__("authenticated.General Title")); ?></title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, user-scalable=yes" name="viewport">
+        <link rel="stylesheet" href="<?php echo e(url('css/backoffice/animate.min.css')); ?>">
+    <!-- Bootstrap 3.3.6 -->
+    <link href="<?php echo e(url('adminlte/bootstrap/css/bootstrap.min.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome -->
+    <link href="<?php echo e(url('css/font-awesome/css/font-awesome.min.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+    <link href="<?php echo e(url('css/ionicons/css/ionicons.min.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Admin LTE Theme style -->
+    <link href="<?php echo e(url('adminlte/dist/css/AdminLTE.min.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Admin LTE skin blue -->
+    <link href="<?php echo e(url('adminlte/dist/css/skins/skin-blue.min.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Admin LTE all skins -->
+    <link href="<?php echo e(url('adminlte/dist/css/skins/_all-skins.min.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Backoffice styles -->
+    <link href="<?php echo e(url('css/backoffice/backoffice_styles.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Backoffice custom theme -->
+    <link rel="stylesheet" href="<?php echo e(url('css/backoffice/backoffice-desktop.css')); ?>" type="text/css">
+    <link href="<?php echo e(url('css/backoffice/backoffice-theme.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+
+    <!-- Datepicker theme -->
+    <link href="<?php echo e(url('adminlte/plugins/datepicker/datepicker3.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <link href="<?php echo e(url('adminlte/plugins/daterangepicker/daterangepicker.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <link href="<?php echo e(url('adminlte/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE 9]>
+    <link href="<?php echo e(url('adminlte/js/html5shiv.min.js')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <link href="<?php echo e(url('adminlte/js/respond.min.js')); ?>" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <link rel="stylesheet" href="<?php echo e(url('adminlte/plugins/datatables/jquery.dataTables.min.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('adminlte/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('adminlte/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('adminlte/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css')); ?>" />
+
+    <!-- JQUERY EASYUI -->
+    <link rel="stylesheet" href="<?php echo e(url('js/jquery.easyui/themes/bootstrap/easyui.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('js/jquery.easyui/themes/icon.css')); ?>" />
+
+    <!-- SELECT2 -->
+    <link rel="stylesheet" href="<?php echo e(url('adminlte/plugins/select2/select2.min.css')); ?>" />
+    <link rel="stylesheet" href="<?php echo e(url('css/select2-bootstrap-theme/dist/select2-bootstrap.css')); ?>" />
+        <style>
+            @media (min-width: 768px) {
+                .modal-xl {
+                    width: 90%;
+                    /*max-width:1200px;*/
+                }
+            }
+            .btn{
+                border-radius: 4px !important;
+            }
+        </style>
+
+    <!-- JQuery 2.2.3 -->
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/jQuery/jquery-2.2.3.min.js')); ?>"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script type="text/javascript" src="<?php echo e(url('adminlte/bootstrap/js/bootstrap.min.js')); ?>"></script>
+    <!-- Slimscroll -->
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/slimScroll/jquery.slimscroll.min.js')); ?>"></script>
+    <!-- Fastclick -->
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/fastclick/fastclick.min.js')); ?>"></script>
+    <!-- Select -->
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/select2/select2.min.js')); ?>"></script>
+    <!-- Bootstrap datepicker -->
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/datepicker/bootstrap-datepicker.js')); ?>"></script>
+    <!-- JQuery numeric library -->
+    <script type="text/javascript" src="<?php echo e(url('js/jquery.numeric.js')); ?>"></script>
+    <!-- Mask input fields -->
+    <script type="text/javascript" src="<?php echo e(url('js/mask.js')); ?>"></script>
+    <!-- Admin LTE app.js -->
+    <script type="text/javascript" src="<?php echo e(url('adminlte/dist/js/adminlte.min.js')); ?>"></script>
+    <!-- JQuery block UI -->
+    <script type="text/javascript" src="<?php echo e(url('js/jquery.blockUI.js')); ?>"></script>
+    <!-- Block interface desktop code -->
+    <script type="text/javascript" src="<?php echo e(url('js/backoffice/desktop/block_interface.js')); ?>"></script>
+
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/datatables/jquery.dataTables.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/datatables/dataTables.bootstrap.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js')); ?>"></script>
+
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/moment/min/moment.min.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/transition.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/collapse.js')); ?>"></script>
+    <script type="text/javascript" src="<?php echo e(url('adminlte/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js')); ?>"></script>
+
+    <!-- JQUERY EASYUI -->
+    <script type="text/javascript" src="<?php echo e(url('js/jquery.easyui/jquery.easyui.min.js')); ?>"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo e(url('/images/favicon.ico')); ?>"/>
+    <script type="text/javascript">
+        function pingValidSession(){
+            $.ajax(
+                {
+                    type: "POST",
+                    data: "ping=1",
+                    dataType: "json",
+                    global: false,
+                    url: "<?php echo e(LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), '/session-validation/ping-session')); ?>",
+                    async: true,
+                    success: function (data) {
+                        if(!data.valid_session){
+                           window.location = "<?php echo e(LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), '/auth/logout')); ?>";
+                        }else{
+
+                        }
+
+                    },
+                    error: function (data) {
+                        window.location = "<?php echo e(LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), '/auth/logout')); ?>";
+                    }
+                }
+            );
+        }
+        setInterval("pingValidSession()", 60000);
+    </script>
+</head>
+<body <?php if(Config::get('ENABLE_RIGHT_CLICK_ON_PAGE')): ?> oncontextmenu="return false;" <?php endif; ?>>
+<div>
+
+    <div id="loadingPage" style="display: none;">
+	    <h2> <?php echo e(__('authenticated.Page Loading Message')); ?> </h2>
+	    <img alt="" src="<?php echo e(url('images/progressbar-loader.gif')); ?>"/>
+    </div>
+
+  <!-- =============================================== -->
+
+        <?php echo $__env->yieldContent('content'); ?>
+
+  <!-- =============================================== -->
+
+</div>
+</body>
+</html>

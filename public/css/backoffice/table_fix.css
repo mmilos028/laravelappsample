@@ -1,0 +1,8 @@
+.dataTables_length > label {
+    width: 100% !important;
+    text-align: left !important;
+}
+.dataTables_filter > label {
+    width: 100% !important;
+    text-align: left !important;
+}

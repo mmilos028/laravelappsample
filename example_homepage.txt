@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="googlebot" content="noarchive" />
+
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Partner Network</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, user-scalable=yes" name="viewport">
+
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/css/backoffice/animate.min.css">
+
+    <!-- Bootstrap 3.3.6 -->
+    <link href="http://192.168.3.63/backoffice-tombola/public/adminlte/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome -->
+    <link href="http://192.168.3.63/backoffice-tombola/public/css/font-awesome/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+    <link href="http://192.168.3.63/backoffice-tombola/public/css/ionicons/css/ionicons.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Admin LTE Theme style -->
+    <link href="http://192.168.3.63/backoffice-tombola/public/adminlte/dist/css/AdminLTE.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Admin LTE skin blue -->
+    <link href="http://192.168.3.63/backoffice-tombola/public/adminlte/dist/css/skins/skin-blue.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Admin LTE all skins -->
+    <link href="http://192.168.3.63/backoffice-tombola/public/adminlte/dist/css/skins/_all-skins.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Backoffice styles -->
+    <link href="http://192.168.3.63/backoffice-tombola/public/css/backoffice/backoffice_styles.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Backoffice custom theme -->
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/css/backoffice/backoffice-desktop.css" type="text/css">
+    <link href="http://192.168.3.63/backoffice-tombola/public/css/backoffice/backoffice-theme.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <!-- Datepicker theme -->
+    <link href="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datepicker/datepicker3.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/daterangepicker/daterangepicker.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datetimepicker/css/bootstrap-datetimepicker.min.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE 9]>
+    <link href="http://192.168.3.63/backoffice-tombola/public/adminlte/js/html5shiv.min.js" media="screen" rel="stylesheet" type="text/css" />
+    <link href="http://192.168.3.63/backoffice-tombola/public/adminlte/js/respond.min.js" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datatables/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" />
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" />
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" />
+
+    <!-- JQUERY EASYUI -->
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/js/jquery.easyui/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/js/jquery.easyui/themes/icon.css" />
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/css/backoffice/table_fix.css" type="text/css" />
+    <link rel="stylesheet" href="http://192.168.3.63/backoffice-tombola/public/css/backoffice/additional-bootstrap-buttons.css" type="text/css" />
+
+    <!-- JQuery 2.2.3 -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <!-- Bootstrap 3.3.6 -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Slimscroll -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- Fastclick -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/fastclick/fastclick.min.js"></script>
+    <!-- Select -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/select2/select2.min.js"></script>
+    <!-- Bootstrap datepicker -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datepicker/bootstrap-datepicker.js"></script>
+    <!-- JQuery numeric library -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/js/jquery.numeric.js"></script>
+    <!-- Mask input fields -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/js/mask.js"></script>
+    <!-- Admin LTE app.js -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/dist/js/adminlte.min.js"></script>
+    <!-- JQuery block UI -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/js/jquery.blockUI.js"></script>
+    <!-- Block interface desktop code -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/js/backoffice/desktop/block_interface.js"></script>
+
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datatables/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js"></script>
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js"></script>
+
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/moment/min/moment.min.js"></script>
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/transition.js"></script>
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/collapse.js"></script>
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/adminlte/plugins/datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- JQUERY EASYUI -->
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/js/jquery.easyui/jquery.easyui.min.js"></script>
+
+    <script type="text/javascript" src="http://192.168.3.63/backoffice-tombola/public/js/backoffice/desktop/filter-input-text.js"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://192.168.3.63/backoffice-tombola/public/images/favicon.ico"/>
+        <style>
+            @media (min-width: 768px) {
+                .modal-xl {
+                    width: 90%;
+                    /*max-width:1200px;*/
+                }
+            }
+        </style>
+        <script type="text/javascript">
+             $(function () {
+                 if (localStorage.expandedMenu == 0) {
+                     $("body").addClass('sidebar-collapse');
+                 } else {
+                     $("body").removeClass('sidebar-collapse');
+                 }
+                 $(document).on('expanded.pushMenu', function () {
+                     localStorage.expandedMenu = 1;
+                 });
+                 $(document).on('collapsed.pushMenu', function () {
+                     localStorage.expandedMenu = 0;
+                 });
+             });
+            function pingValidSession(){
+                $.ajax(
+                    {
+                        type: "POST",
+                        data: "ping=1",
+                        dataType: "json",
+                        global: false,
+                        url: "http://192.168.3.63/backoffice-tombola/public/en/session-validation/ping-session",
+                        async: true,
+                        success: function (data) {
+                            if(!data.valid_session){
+                               window.location = "http://192.168.3.63/backoffice-tombola/public/en/auth/logout";
+                            }else{
+
+                            }
+
+                        },
+                        error: function (data) {
+                            window.location = "http://192.168.3.63/backoffice-tombola/public/en/auth/logout";
+                        }
+                    }
+                );
+            }
+            setInterval("pingValidSession()", 60000);
+        </script>
+</head>
+<body class="skin-blue fixed sidebar-mini" >
+<div class="wrapper">
+
+    <div id="loadingPage" style="display: none;">
+	    <h2> Please wait, loading... </h2>
+	    <img alt="" src="http://192.168.3.63/backoffice-tombola/public/images/progressbar-loader.gif"/>
+    </div>
+
+    <header class="main-header">
+    <!-- Logo -->
+    <a href="http://192.168.3.63/backoffice-tombola/public/en/home_page" class="logo noblockui">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini">L 6</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg">
+          <img src="http://192.168.3.63/backoffice-tombola/public/images/lucky6_logo.ico" class="img-rounded" alt="Lucky Six Logo" style="width: 50px !important; height: 50px;">
+          Lucky Six
+      </span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle noblockui" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    </nav>
+
+</header>
+
+  <!-- =============================================== -->
+
+    <!-- Left side column. contains the sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="sidebar-menu" data-widget="tree">
+            <li>
+                <a href="http://192.168.3.63/backoffice-tombola/public/en/auth/logout"><i class="fa fa-sign-out"></i>
+                <span>Logout</span></a>
+            </li>
+
+              <!-- DETAILS -->
+            <li class="treeview">
+              <a href="#" class="noblockui">
+                <i class="fa fa-info-circle"></i> <span>Details</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li>
+                    <a href="javascript:void(0)" class="noblockui">
+                        <span class="width-100">Username:</span>
+                        <span class="width-150"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="noblockui">
+                        <span class="width-100">Session ID:</span>
+                        <span class="width-150"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="noblockui">
+                        <span class="width-100">Session Start:</span>
+                        <span class="width-150"></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0)" class="noblockui">
+                        <span class="width-100">Duration: </span>
+                        <span class="width-150"></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0)" class="noblockui">
+                        <span class="width-100">Last Login: </span>
+                        <span class="width-150"></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0)" class="noblockui">
+                        <span class="width-100"></span>
+                        <span class="width-150"></span>
+                    </a>
+                </li>
+
+                  <li>
+                      <a href="javascript:void(0)" class="noblockui">
+                          <span class="width-150">Selected:</span>
+                      </a>
+                  </li>
+
+                <li>
+                    <a href="javascript:void(0)" class="noblockui">
+                         <span class="width-100">
+                             Start Date:
+                         </span>
+                        <span class="width-150">
+                            
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:void(0)" class="noblockui">
+                        <span class="width-100">
+                             End Date:
+                         </span>
+                        <span class="width-150">
+                             
+                        </span>
+                    </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li class="header">MAIN NAVIGATION</li>
+
+                        <li>
+                <a href="http://192.168.3.63/backoffice-tombola/public/en/mobile-menu/index">
+                    <i class="fa fa-bars"></i>
+                    <span> Main menu</span>
+                </a>
+            </li>
+            
+              <!-- MY ACCOUNT -->
+            <li class="treeview ">
+              <a href="#" class="noblockui">
+                <i class="fa fa-user"></i> <span>My account</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li >
+                    <a href="http://192.168.3.63/backoffice-tombola/public/en/my-account/my-personal-data">
+                        <i class="fa fa-user"></i>
+                        <span>My personal data</span>
+                    </a>
+                </li>
+                <li >
+                    <a href="http://192.168.3.63/backoffice-tombola/public/en/my-account/change-password">
+                        <i class="fa fa-key"></i>
+                        <span>Change password</span>
+                    </a>
+                </li>
+              </ul>
+            </li>
+
+              
+                <!-- STRUCTURE ENTITY -->
+              <li class="treeview ">
+                  <a href="#" class="noblockui">
+                      <i class="fa fa-users"></i> <span>Structure Entity</span>
+                      <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+                  </a>
+                  <ul class="treeview-menu">
+                      <li >
+                          <a href="http://192.168.3.63/backoffice-tombola/public/en/newStructureEntity2">
+                              <i class="fa fa-user-plus"></i>
+                              <span>New Entity</span>
+                          </a>
+                      </li>
+
+                      <li >
+                          <a href="http://192.168.3.63/backoffice-tombola/public/en/structure-entity/search-entity">
+                              <i class="fa fa-search"></i>
+                              <span>Search Entity</span>
+                          </a>
+                      </li>
+
+                                                <li >
+                              <a href="http://192.168.3.63/backoffice-tombola/public/en/structure-entity/list-users-tree">
+                                  <i class="fa fa-tree"></i>
+                                  <span>Structure View</span>
+                              </a>
+                          </li>
+                      
+                  </ul>
+              </li>
+
+              <!-- USERS -->
+            <li class="treeview ">
+              <a href="#" class="noblockui">
+                <i class="fa fa-users"></i> <span>Users</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li >
+                    <a href="http://192.168.3.63/backoffice-tombola/public/en/newUser2">
+                        <i class="fa fa-user-plus"></i>
+                        <span>New user</span>
+                    </a>
+                </li>
+                <li >
+                    <a href="http://192.168.3.63/backoffice-tombola/public/en/user/search-users">
+                        <i class="fa fa-search"></i>
+                        <span>Search Users</span>
+                    </a>
+                </li>
+                  <li >
+                      <a href="http://192.168.3.63/backoffice-tombola/public/en/listUsersTree">
+                          <i class="fa fa-tree"></i>
+                          <span>Structure View</span>
+                      </a>
+                  </li>
+                  <li >
+                      <a href="http://192.168.3.63/backoffice-tombola/public/en/administrator/list-administrators">
+                          <i class="fa fa-list"></i>
+                          <span>List Administrators</span>
+                      </a>
+                  </li>
+                  <li >
+                      <a href="http://192.168.3.63/backoffice-tombola/public/en/terminal/list-terminals">
+                          <i class="fa fa-list"></i>
+                          <span>List Terminals</span>
+                      </a>
+                  </li>
+                  <li >
+                      <a href="http://192.168.3.63/backoffice-tombola/public/en/player/list-players">
+                          <i class="fa fa-list"></i>
+                          <span>List Players</span>
+                      </a>
+                  </li>
+              </ul>
+            </li>
+
+              <!-- CREDIT TRANSFERS -->
+            <li class="treeview ">
+                <a href="#" class="noblockui">
+                    <i class="fa fa-money"></i> <span>Credit Transfers</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li >
+                        <a href="http://192.168.3.63/backoffice-tombola/public/en/transfer-credit/deposit-list">
+                            <i class="fa fa-plus"></i>
+                            <span>Deposit</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://192.168.3.63/backoffice-tombola/public/en/transfer-credit/withdraw-list">
+                            <i class="fa fa-minus"></i>
+                            <span>Withdraw</span>
+                        </a>
+                    </li>
+
+                    <li >
+                        <a href="http://192.168.3.63/backoffice-tombola/public/en/transfer-credit/deposit-user-structure-view">
+                            <i class="fa fa-plus"></i>
+                            <i class="fa fa-tree"></i>
+                            <span>Deposit - Structure View</span>
+                        </a>
+                    </li>
+
+                    <li >
+                        <a href="http://192.168.3.63/backoffice-tombola/public/en/transfer-credit/withdraw-user-structure-view">
+                            <i class="fa fa-minus"></i>
+                            <i class="fa fa-tree"></i>
+                            <span>Withdraw - Structure View</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+              <!-- TICKETS -->
+            <li class="treeview ">
+              <a href="#" class="noblockui">
+                <i class="fa fa-ticket"></i> <span>Tickets</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+
+              <ul class="treeview-menu">
+
+                <li >
+                    <a href="http://192.168.3.63/backoffice-tombola/public/en/ticket/search-tickets">
+                        <i class="fa fa-search"></i>
+                        <span>Search Ticket</span>
+                    </a>
+                </li>
+
+                <li >
+                    <a href="http://192.168.3.63/backoffice-tombola/public/en/ticket/list-temporary-tickets">
+                        <i class="fa fa-search"></i>
+                        <span>Search Temporary Tickets</span>
+                    </a>
+                </li>
+              </ul>
+            </li>
+
+              <!-- REPORTS -->
+			<li class="treeview ">
+              <a href="#" class="noblockui">
+                <i class="fa fa-bar-chart"></i> <span>Reports</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <!--<li >
+                    <a href="http://192.168.3.63/backoffice-tombola/public/en/report/daily-report">
+                        <i class="fa fa-bar-chart"></i>
+                        <span>Daily Report</span>
+                    </a>
+                </li>-->
+                <li >
+                    <a href="http://192.168.3.63/backoffice-tombola/public/en/report/ticket-list">
+                        <i class="fa fa-bar-chart"></i>
+                        <span>Ticket List</span>
+                    </a>
+                </li>
+                <li >
+                   <a href="http://192.168.3.63/backoffice-tombola/public/en/report/draw-list">
+                       <i class="fa fa-bar-chart"></i>
+                       <span>Draw List</span>
+                   </a>
+                </li>
+                <li >
+                   <a id="profitReportLink" href="http://192.168.3.63/backoffice-tombola/public/en/report/financial-report">
+                       <i class="fa fa-bar-chart"></i>
+                       <span>Profit Result</span>
+                   </a>
+                </li>
+                    <li >
+                        <a href="http://192.168.3.63/backoffice-tombola/public/en/report/transaction-report">
+                            <i class="fa fa-bar-chart"></i>
+                            <span>Transactions</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://192.168.3.63/backoffice-tombola/public/en/report/collector-transaction-report">
+                            <i class="fa fa-bar-chart"></i>
+                            <span>Collector Transactions</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://192.168.3.63/backoffice-tombola/public/en/report/player-liability-report">
+                            <i class="fa fa-bar-chart"></i>
+                            <span>Player Liability</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="http://192.168.3.63/backoffice-tombola/public/en/dailyCashierReport">
+                            <i class="fa fa-bar-chart"></i>
+                            <span> Daily Report Cashier View</span>
+                        </a>
+                    </li>
+              </ul>
+            </li>
+
+
+
+              <!-- LANGUAGES -->
+            <li class="treeview ">
+              <a href="#" class="noblockui">
+                <i class="fa ion-earth"></i> <span>Languages</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li>
+                    <a href="http://192.168.3.63/backoffice-tombola/public/en/createUser">
+                        <img height="18" width="18" class="langswitch-active-language" alt="English" src="http://192.168.3.63/backoffice-tombola/public/images/languages/uk.png">
+                        <span>English</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://192.168.3.63/backoffice-tombola/public/de/createUser">
+                        <img height="18" width="18" class="langswitch-inactive-language" alt="German" src="http://192.168.3.63/backoffice-tombola/public/images/languages/germany.png">
+                        <span>German</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://192.168.3.63/backoffice-tombola/public/rs/createUser">
+                        <img height="18" width="18" class="langswitch-inactive-language" alt="Serbian" src="http://192.168.3.63/backoffice-tombola/public/images/languages/serbia.png">
+                        <span>Serbian</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://192.168.3.63/backoffice-tombola/public/sq/createUser">
+                        <img height="18" width="18" class="langswitch-inactive-language" alt="Albanian" src="http://192.168.3.63/backoffice-tombola/public/images/languages/albania.png">
+                        <span>Albanian</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://192.168.3.63/backoffice-tombola/public/cs/createUser">
+                        <img height="18" width="18" class="langswitch-inactive-language" alt="Czeck" src="http://192.168.3.63/backoffice-tombola/public/images/languages/czech.png">
+                        <span>Czeck</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://192.168.3.63/backoffice-tombola/public/sv/createUser">
+                        <img height="18" width="18" class="langswitch-inactive-language" alt="Swedish" src="http://192.168.3.63/backoffice-tombola/public/images/languages/sweden.png">
+                        <span>Swedish</span>
+                    </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+    <!-- /.sidebar -->
+  </aside>
+<div class="control-sidebar-bg"></div>
+<script>
+    $(document).ready(function(){
+        //console.log(", 1");
+
+        $("#profitReportLink").on("click", function(){
+            sessionStorage.setItem("automaticSelect", "no");
+        });
+
+        //Updates time on home page. Can be used for all other time updates if needed.
+        var intervalCountdown = setInterval(
+            function() {
+                var date = new Date();
+
+                var weekday = new Array(7);
+                weekday[0] = "Sunday";
+                weekday[1] = "Monday";
+                weekday[2] = "Tuesday";
+                weekday[3] = "Wednesday";
+                weekday[4] = "Thursday";
+                weekday[5] = "Friday";
+                weekday[6] = "Saturday";
+                var monthNames = ["January", "February", "March", "April", "May", "June",
+                    "July", "August", "September", "October", "November", "December"
+                ];
+
+                var dayName = weekday[date.getDay()];
+                var monthDay = date.getDate();
+                var year = date.getFullYear();
+                var monthName = monthNames[date.getMonth()];
+
+                var endDate = monthDay + " " + monthName + " " + year;
+                var startDate = new Date();
+                var dateString = dayName + ", " + monthDay + ". " + monthName + " " + year;
+
+                $("#dateTimeHomePage").val(monthDay + " " + monthName + " " + year + "     " + date.toLocaleTimeString());
+                //$("#currentServerDate").text(dateString);
+            }, 1000
+        );
+    });
+</script>
+
+  <!-- =============================================== -->
+
+        <!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <section class="content">
+
+            
+            <div class="box box-danger">
+            <div class="box-body">
+                <div class="row">
+                    <div class="col-xs-3">
+                        &nbsp;
+                    </div>
+                    <div class="col-xs-8">
+                        <br /> <br />
+                        <h1>BackOffice has generated an error</h1>
+                        <br /><br /> #0 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Router.php(546): match(Illuminate\Http\Request)<br /> #1 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Router.php(525): findRoute(Illuminate\Http\Request)<br /> #2 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Router.php(511): dispatchToRoute(Illuminate\Http\Request)<br /> #3 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(176): dispatch(Illuminate\Http\Request)<br /> #4 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(30): Illuminate\Foundation\Http\{closure}(Illuminate\Http\Request)<br /> #5 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Session\Middleware\StartSession.php(64): Illuminate\Routing\{closure}(Illuminate\Http\Request)<br /> #6 C:\xampp_7_2_3\htdocs\backoffice-tombola\app\Http\Middleware\StartSession.php(24): handle(Illuminate\Http\Request, Closure)<br /> #7 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(148): handle(Illuminate\Http\Request, Closure)<br /> #8 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\{closure}(Illuminate\Http\Request)<br /> #9 C:\xampp_7_2_3\htdocs\backoffice-tombola\app\Http\Middleware\InputTrim.php(24): Illuminate\Routing\{closure}(Illuminate\Http\Request)<br /> #10 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(148): handle(Illuminate\Http\Request, Closure)<br /> #11 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\{closure}(Illuminate\Http\Request)<br /> #12 C:\xampp_7_2_3\htdocs\backoffice-tombola\app\Http\Middleware\PreventBackHistory.php(15): Illuminate\Routing\{closure}(Illuminate\Http\Request)<br /> #13 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(148): handle(Illuminate\Http\Request, Closure)<br /> #14 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\{closure}(Illuminate\Http\Request)<br /> #15 C:\xampp_7_2_3\htdocs\backoffice-tombola\app\Http\Middleware\CacheKiller.php(40): Illuminate\Routing\{closure}(Illuminate\Http\Request)<br /> #16 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(148): handle(Illuminate\Http\Request, Closure)<br /> #17 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\{closure}(Illuminate\Http\Request)<br /> #18 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(30): Illuminate\Routing\{closure}(Illuminate\Http\Request)<br /> #19 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(148): handle(Illuminate\Http\Request, Closure)<br /> #20 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\{closure}(Illuminate\Http\Request)<br /> #21 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\TransformsRequest.php(30): Illuminate\Routing\{closure}(Illuminate\Http\Request)<br /> #22 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(148): handle(Illuminate\Http\Request, Closure)<br /> #23 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\{closure}(Illuminate\Http\Request)<br /> #24 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\ValidatePostSize.php(27): Illuminate\Routing\{closure}(Illuminate\Http\Request)<br /> #25 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(148): handle(Illuminate\Http\Request, Closure)<br /> #26 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\{closure}(Illuminate\Http\Request)<br /> #27 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode.php(46): Illuminate\Routing\{closure}(Illuminate\Http\Request)<br /> #28 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(148): handle(Illuminate\Http\Request, Closure)<br /> #29 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Routing\Pipeline.php(53): Illuminate\Pipeline\{closure}(Illuminate\Http\Request)<br /> #30 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Pipeline\Pipeline.php(102): Illuminate\Routing\{closure}(Illuminate\Http\Request)<br /> #31 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(151): then(Closure)<br /> #32 C:\xampp_7_2_3\htdocs\backoffice-tombola\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(116): sendRequestThroughRouter(Illuminate\Http\Request)<br /> #33 C:\xampp_7_2_3\htdocs\backoffice-tombola\public\index.php(53): handle(Illuminate\Http\Request)
+                        <a href="javascript:history.back()">Go to previous page</a>
+                    </div>
+                    <div class="col-xs-1">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+            <!-- /.box-body -->
+        </div>
+            
+    
+    </section>
+</div>
+
+  <!-- =============================================== -->
+
+    <footer class="main-footer">
+	
+    <div class="container">
+		<!--
+        <div class="pull-right hidden-xs">
+          Partner Network &copy; 2018        </div>
+        <strong>
+            <b>English</b>
+        </strong>
+		-->
+    </div>
+	
+</footer></div>
+</body>
+</html>

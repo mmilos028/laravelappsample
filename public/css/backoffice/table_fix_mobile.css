@@ -1,0 +1,21 @@
+.tree-expanded{
+    width: 40px;
+    height: 30px;
+    background: url("../../images/details_close.png") no-repeat !important;
+    background-size: 30px 30px !important;
+    vertical-align: middle !important;
+}
+.tree-collapsed{
+    width: 40px;
+    height: 30px;
+    background: url("../../images/details_open.png") no-repeat !important;
+    background-size: 30px 30px !important;
+    vertical-align: middle !important;
+}
+.datagrid-cell, .datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber, .datagrid-row{
+    height: 30px;
+    vertical-align: middle !important;
+}
+.tree-icon, .tree-title{
+    vertical-align: middle !important;
+}

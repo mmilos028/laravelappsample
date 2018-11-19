@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="bootstrap/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="cls">
+    <testsuites>
+        <testsuite name="Feature Tests">
+            <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+
+        <testsuite name="Unit Tests">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./app</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="SESSION_DRIVER" value="file"/>
+        <env name="QUEUE_DRIVER" value="sync"/>
+        <env name="TEST_SERVER_URL" value="http://localhost/backoffice-tombola/public"/>
+        <env name="TEST_BACKOFFICE_LOGIN_URL" value="http://localhost/backoffice-tombola/public/en/auth/login"/>
+        <env name="TEST_SERVER_URL_FOR_BROWSER_TESTING" value="/backoffice-tombola/public"/>
+
+        <env name="BACKOFFICE_USERNAME" value="DevMilos"/>
+        <env name="BACKOFFICE_PASSWORD" value="DevMilos"/>
+
+        <env name="ADMINISTRATOR_SYSTEM_BACKOFFICE_USERNAME" value="DevMilos"/>
+        <env name="ADMINISTRATOR_SYSTEM_BACKOFFICE_PASSWORD" value="DevMilos"/>
+
+        <env name="ADMINISTRATOR_OPERATER_BACKOFFICE_USERNAME" value="AdOprTest"/>
+        <env name="ADMINISTRATOR_OPERATER_BACKOFFICE_PASSWORD" value="AdOprTest"/>
+        <env name="ADMINISTRATOR_OPERATER_PARENT_AFFILIATE_NAME" value="LocationTest"/>
+        <env name="ADMINISTRATOR_OPERATER_PARENT_AFFILIATE_ID" value="156"/>
+        <env name="ADMINISTRATOR_OPERATER_CURRENCY" value="EUR"/>
+        <env name="ADMINISTRATOR_OPERATER_COUNTRY_ID" value="688"/>
+        <env name="ADMINISTRATOR_OPERATER_LANGUAGE" value="en_GB"/>
+
+        <env name="BACKOFFICE_SESSION_ID" value="2577"/>
+        <env name="LOCATION_ID" value="33" />
+
+        <env name="COUNTRY_NAME" value="Serbia" />
+        <env name="COUNTRY_ID" value="688" />
+
+        <env name="DB_HOST" value=""/>
+        <env name="DB_PORT" value="5432"/>
+        <env name="DB_DATABASE" value=""/>
+        <env name="DB_USERNAME" value=""/>
+        <env name="DB_PASSWORD" value=""/>
+    </php>
+</phpunit>

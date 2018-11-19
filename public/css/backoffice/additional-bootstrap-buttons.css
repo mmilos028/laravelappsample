@@ -1,0 +1,138 @@
+/* BTN ORANGE ---------------------------------------------------------------------------------------------------------- */
+.btn-orange {
+    color: #ffffff;
+    background-color: #EFA742;
+    border-color: #EFA742;
+}
+
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active,
+.open .dropdown-toggle.btn-orange {
+    color: #ffffff;
+    background-color: #F09413;
+    border-color: #EFA742;
+}
+
+.btn-orange:active,
+.btn-orange.active,
+.open .dropdown-toggle.btn-orange {
+    background-image: none;
+}
+
+.btn-orange.disabled,
+.btn-orange[disabled],
+fieldset[disabled] .btn-orange,
+.btn-orange.disabled:hover,
+.btn-orange[disabled]:hover,
+fieldset[disabled] .btn-orange:hover,
+.btn-orange.disabled:focus,
+.btn-orange[disabled]:focus,
+fieldset[disabled] .btn-orange:focus,
+.btn-orange.disabled:active,
+.btn-orange[disabled]:active,
+fieldset[disabled] .btn-orange:active,
+.btn-orange.disabled.active,
+.btn-orange[disabled].active,
+fieldset[disabled] .btn-orange.active {
+    background-color: #EFA742;
+    border-color: #EFA742;
+}
+
+.btn-orange .badge {
+    color: #EFA742;
+    background-color: #ffffff;
+}
+/* BTN RED ------------------------------------------------------------------------------------------------------------- */
+.btn-red {
+    color: #FFFFFF;
+    background-color: #CF2323;
+    border-color: #FF002B;
+}
+
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+    color: #FFFFFF;
+    background-color: #FF000D;
+    border-color: #FF002B;
+}
+
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+    background-image: none;
+}
+
+.btn-red.disabled,
+.btn-red[disabled],
+fieldset[disabled] .btn-red,
+.btn-red.disabled:hover,
+.btn-red[disabled]:hover,
+fieldset[disabled] .btn-red:hover,
+.btn-red.disabled:focus,
+.btn-red[disabled]:focus,
+fieldset[disabled] .btn-red:focus,
+.btn-red.disabled:active,
+.btn-red[disabled]:active,
+fieldset[disabled] .btn-red:active,
+.btn-red.disabled.active,
+.btn-red[disabled].active,
+fieldset[disabled] .btn-red.active {
+    background-color: #CF2323;
+    border-color: #FF002B;
+}
+
+.btn-red .badge {
+    color: #CF2323;
+    background-color: #FFFFFF;
+}
+/* BTN PINK ------------------------------------------------------------------------------------------------------------ */
+.btn-pink {
+    color: #FFFFFF;
+    background-color: #CF88B9;
+    border-color: #D987ED;
+}
+
+.btn-pink:hover,
+.btn-pink:focus,
+.btn-pink:active,
+.btn-pink.active,
+.open .dropdown-toggle.btn-pink {
+    color: #FFFFFF;
+    background-color: #EB61EB;
+    border-color: #D987ED;
+}
+
+.btn-pink:active,
+.btn-pink.active,
+.open .dropdown-toggle.btn-pink {
+    background-image: none;
+}
+
+.btn-pink.disabled,
+.btn-pink[disabled],
+fieldset[disabled] .btn-pink,
+.btn-pink.disabled:hover,
+.btn-pink[disabled]:hover,
+fieldset[disabled] .btn-pink:hover,
+.btn-pink.disabled:focus,
+.btn-pink[disabled]:focus,
+fieldset[disabled] .btn-pink:focus,
+.btn-pink.disabled:active,
+.btn-pink[disabled]:active,
+fieldset[disabled] .btn-pink:active,
+.btn-pink.disabled.active,
+.btn-pink[disabled].active,
+fieldset[disabled] .btn-pink.active {
+    background-color: #CF88B9;
+    border-color: #D987ED;
+}
+
+.btn-pink .badge {
+    color: #CF88B9;
+    background-color: #FFFFFF;
+}
